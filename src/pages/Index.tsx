@@ -7,6 +7,8 @@ import GallerySection from "@/components/GallerySection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import BookingSection from "@/components/BookingSection";
 import Footer from "@/components/Footer";
+import ChatWidget from "@/components/ChatWidget";
+import WhatsAppButton from "@/components/WhatsAppButton";
 
 const Index = () => {
   return (
@@ -20,6 +22,8 @@ const Index = () => {
       <TestimonialsSection />
       <BookingSection />
       <Footer />
+      <WhatsAppButton />
+      <ChatWidget />
     </div>
   );
 };
