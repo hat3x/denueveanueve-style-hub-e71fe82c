@@ -10,7 +10,7 @@ const locations = [
   },
   {
     name: "Alpedrete",
-    address: "C/ Mayor, 12, 28430 Alpedrete, Madrid",
+    address: "C/ Betanzos, 12, 28430 Alpedrete, Madrid",
     phone: "+34 918 57 XX XX",
     hours: "Lun - Sáb: 9:00 - 21:00",
   },
