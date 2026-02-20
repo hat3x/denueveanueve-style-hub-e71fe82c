@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import heroImage from "@/assets/hero-salon.jpg";
-import logoCircular from "@/assets/logo-circular.png";
+import logoBlanco from "@/assets/logo-blanco.png";
 
 const HeroSection = () => {
   return (
@@ -25,7 +25,7 @@ const HeroSection = () => {
           <p className="font-body text-sm md:text-base tracking-[0.3em] uppercase text-gold-light mb-6">
             Peluquería & Centro de Estética
           </p>
-           <img src={logoCircular} alt="Denueveanueve logo" className="w-32 md:w-44 lg:w-52 mx-auto mb-6" />
+           <img src={logoBlanco} alt="Denueveanueve logo" className="w-64 md:w-80 lg:w-96 mx-auto mb-6" />
           <p className="font-body text-lg md:text-xl text-primary-foreground/80 max-w-2xl mx-auto mb-10 font-light">
             Expertos en cabello y estética con atención personalizada en cada uno de nuestros centros en Madrid
           </p>
