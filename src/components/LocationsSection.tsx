@@ -4,7 +4,7 @@ import { MapPin, Phone, Clock } from "lucide-react";
 const locations = [
   {
     name: "Collado Villalba",
-    address: "C/ Real, 25, 28400 Collado Villalba, Madrid",
+    address: "C/ Azuela, 36, Polígono P-29, 28400 Collado Villalba, Madrid",
     phone: "+34 918 51 XX XX",
     hours: "Lun - Sáb: 9:00 - 21:00",
   },
