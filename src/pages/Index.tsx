@@ -2,7 +2,7 @@ import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import ServicesSection from "@/components/ServicesSection";
 import LocationsSection from "@/components/LocationsSection";
-import TeamSection from "@/components/TeamSection";
+
 import GallerySection from "@/components/GallerySection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import BookingSection from "@/components/BookingSection";
