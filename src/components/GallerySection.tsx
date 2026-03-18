@@ -1,14 +1,20 @@
 import { motion } from "framer-motion";
-import gallery1 from "@/assets/gallery-1.jpg";
-import gallery2 from "@/assets/gallery-2.jpg";
-import gallery3 from "@/assets/gallery-3.jpg";
-import gallery4 from "@/assets/gallery-4.jpg";
+import gallery1 from "@/assets/gallery-salon-1.jpg";
+import gallery2 from "@/assets/gallery-salon-2.jpeg";
+import gallery3 from "@/assets/gallery-salon-3.jpeg";
+import gallery4 from "@/assets/gallery-salon-4.jpeg";
+import gallery5 from "@/assets/gallery-salon-5.jpeg";
+import gallery6 from "@/assets/gallery-salon-6.jpeg";
+import gallery7 from "@/assets/gallery-salon-7.jpeg";
 
 const images = [
-  { src: gallery1, alt: "Balayage y mechas profesionales" },
-  { src: gallery2, alt: "Corte y arreglo de barba" },
-  { src: gallery3, alt: "Manicura profesional" },
-  { src: gallery4, alt: "Tratamiento capilar" },
+  { src: gallery1, alt: "Interior del salón Denueveanueve" },
+  { src: gallery2, alt: "Zona de peinado y espejos iluminados" },
+  { src: gallery3, alt: "Sillones de barbería en Denueveanueve" },
+  { src: gallery4, alt: "Zona de estética y peluquería" },
+  { src: gallery5, alt: "Área de corte y color" },
+  { src: gallery6, alt: "Puestos de peinado Denueveanueve" },
+  { src: gallery7, alt: "Vista general del salón" },
 ];
 
 const GallerySection = () => {
