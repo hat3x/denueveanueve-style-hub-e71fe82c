@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
           {/* Brand */}
           <div className="md:col-span-1">
-            <img src={logoBlanco} alt="Denueveanueve" className="h-8 md:h-10 mb-4" />
+            <img src={logoBlanco} alt="Denueveanueve" className="h-10 md:h-12 mb-4 object-contain" />
             <p className="font-body text-sm text-primary-foreground/70 leading-relaxed">
               Belleza y estilo de 9 a 9. Tu peluquería y centro de estética de confianza en Madrid.
             </p>
