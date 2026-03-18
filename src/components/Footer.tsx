@@ -44,22 +44,13 @@ const Footer = () => {
             <h4 className="font-display text-lg font-semibold mb-4">Síguenos</h4>
             <div className="flex gap-4">
               <a
-                href="https://instagram.com/denueveanuevepeluquerias"
+                href="https://www.instagram.com/denueveanuevepeluquerias/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 border border-primary-foreground/30 flex items-center justify-center hover:border-gold hover:text-gold transition-colors"
                 aria-label="Instagram"
               >
                 <Instagram className="w-5 h-5" />
-              </a>
-              <a
-                href="https://facebook.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 border border-primary-foreground/30 flex items-center justify-center hover:border-gold hover:text-gold transition-colors"
-                aria-label="Facebook"
-              >
-                <Facebook className="w-5 h-5" />
               </a>
             </div>
           </div>
