@@ -6,6 +6,7 @@ import gallery4 from "@/assets/gallery-salon-4.jpeg";
 import gallery5 from "@/assets/gallery-salon-5.jpeg";
 import gallery6 from "@/assets/gallery-salon-6.jpeg";
 import gallery7 from "@/assets/gallery-salon-7.jpeg";
+import gallery8 from "@/assets/gallery-salon-8.jpeg";
 
 const images = [
   { src: gallery1, alt: "Interior del salón Denueveanueve" },
