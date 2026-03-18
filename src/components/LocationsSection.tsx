@@ -5,20 +5,33 @@ const locations = [
   {
     name: "Collado Villalba",
     address: "C/ Azuela, 36, Polígono P-29, 28400 Collado Villalba, Madrid",
-    phone: "+34 918 51 XX XX",
-    hours: "Lun - Sáb: 9:00 - 21:00",
+    phone: "+34 918 502 012",
+    hours: [
+      "Lun - Vie: 9:00 - 21:00",
+      "Sáb: 9:00 - 15:00",
+      "Dom: Cerrado",
+    ],
   },
   {
     name: "Alpedrete",
     address: "C/ Betanzos, 1, Local 5, 28430 Alpedrete, Madrid",
-    phone: "+34 918 57 XX XX",
-    hours: "Lun - Sáb: 9:00 - 21:00",
+    phone: "+34 917 569 053",
+    hours: [
+      "Lun, Mar, Jue, Vie: 9:30 - 20:00",
+      "Mié: 9:30 - 14:30 / 16:00 - 20:00",
+      "Sáb: 9:00 - 15:00",
+      "Dom: Cerrado",
+    ],
   },
   {
     name: "Boadilla del Monte",
     address: "Av. Infante Don Luis, 8, 28660 Boadilla del Monte, Madrid",
-    phone: "+34 916 33 XX XX",
-    hours: "Lun - Sáb: 9:00 - 21:00",
+    phone: "+34 916 339 784",
+    hours: [
+      "Lun - Vie: 9:00 - 21:00",
+      "Sáb: 9:00 - 15:00",
+      "Dom: Cerrado",
+    ],
   },
 ];
 
