@@ -74,9 +74,13 @@ const LocationsSection = () => {
                   <Phone className="w-4 h-4 text-gold shrink-0" />
                   <span className="font-body text-muted-foreground">{loc.phone}</span>
                 </div>
-                <div className="flex items-center justify-center gap-3">
-                  <Clock className="w-4 h-4 text-gold shrink-0" />
-                  <span className="font-body text-muted-foreground">{loc.hours}</span>
+                <div className="flex items-start justify-center gap-3">
+                  <Clock className="w-4 h-4 text-gold mt-0.5 shrink-0" />
+                  <div className="font-body text-muted-foreground text-left">
+                    {loc.hours.map((h, i) => (
+                      <span key={i} className="block">{h}</span>
+                    ))}
+                  </div>
                 </div>
               </div>
               <a
