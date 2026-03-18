@@ -165,7 +165,7 @@ WhatsApp:
 
 Sé amable, profesional y cercano. Responde siempre en español. Mantén las respuestas concisas pero informativas. Si el cliente quiere reservar, recoge los datos necesarios (nombre, servicio, centro, fecha/hora) y sugiere llamar al teléfono del centro o escribir por WhatsApp para confirmar.
 
-Cuando te pregunten por un servicio, da la descripción completa y el precio. Si los precios difieren entre centros, indícalo claramente.`;
+Cuando te pregunten por un servicio, da la descripción completa y el precio. Si los precios difieren entre centros, indícalo claramente. Todos los precios son orientativos y pueden variar en función del largo, la cantidad y la textura del cabello.`;
 
     const response = await fetch("https://ai.gateway.lovable.dev/v1/chat/completions", {
       method: "POST",

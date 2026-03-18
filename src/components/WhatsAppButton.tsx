@@ -32,7 +32,7 @@ const WhatsAppButton = () => {
               <a
                 key={opt.number}
                 href={`https://wa.me/${opt.number}?text=${encodeURIComponent(MESSAGE)}`}
-                target="_blank"
+                target="_top"
                 rel="noopener noreferrer"
                 className="block w-full text-left px-4 py-2.5 rounded-lg bg-[#25D366] text-white font-body text-sm font-medium hover:bg-[#20bd5a] transition-colors"
               >
