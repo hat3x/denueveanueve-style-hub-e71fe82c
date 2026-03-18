@@ -1,4 +1,4 @@
-import { Instagram, Facebook, Mail, Phone } from "lucide-react";
+import { Instagram, Mail, Phone } from "lucide-react";
 import logoBlanco from "@/assets/logo-blanco.png";
 
 const Footer = () => {
