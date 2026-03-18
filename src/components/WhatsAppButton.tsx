@@ -31,7 +31,7 @@ const WhatsAppButton = () => {
             {whatsappOptions.map((opt) => (
               <a
                 key={opt.number}
-                href={`https://api.whatsapp.com/send?phone=${opt.number}&text=${encodeURIComponent(MESSAGE)}`}
+                href={`https://wa.me/${opt.number}?text=${encodeURIComponent(MESSAGE)}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block w-full text-left px-4 py-2.5 rounded-lg bg-[#25D366] text-white font-body text-sm font-medium hover:bg-[#20bd5a] transition-colors"
