@@ -16,6 +16,7 @@ const images = [
   { src: gallery5, alt: "Área de corte y color" },
   { src: gallery6, alt: "Puestos de peinado Denueveanueve" },
   { src: gallery7, alt: "Vista general del salón" },
+  { src: gallery8, alt: "Zona de lavado y tratamientos" },
 ];
 
 const GallerySection = () => {
